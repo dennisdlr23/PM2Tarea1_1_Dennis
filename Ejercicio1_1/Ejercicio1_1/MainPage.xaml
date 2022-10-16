@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio1_1.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Ejercicio 1_1 Dennis de la Rosa" HorizontalTextAlignment="Center" TextColor="Black" FontSize="36"/>
+        </Frame>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Entry x:Name="txtn1" Placeholder="Ingrese el número 1" Keyboard="Numeric"/>
+        <Entry x:Name="txtn2" Placeholder="Ingrese el número 2" Keyboard="Numeric" />
+
+        <Button x:Name="btnsumar" Text="Sumar" Clicked="btnsumar_Clicked" BackgroundColor="DarkBlue" TextColor="White" />
+        <Button x:Name="btnrestar" Text="Restar" Clicked="btnrestar_Clicked" BackgroundColor="DarkBlue" TextColor="White"/>
+        <Button x:Name="btnmultiplicar" Text="Multiplicar" Clicked="btnmultiplicar_Clicked" BackgroundColor="DarkBlue" TextColor="White"/>
+        <Button x:Name="btndividir" Text="Dividir" Clicked="btndividir_Clicked" BackgroundColor="DarkBlue" TextColor="White" />
+
+    </StackLayout>
+
+</ContentPage>
