@@ -6,7 +6,7 @@
         <StackLayout>
             <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" x:Name="lblresultado" FontSize="20" TextColor="Black"/>
+                HorizontalOptions="CenterAndExpand" x:Name="lblresultado" FontSize="28" TextColor="Black"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
